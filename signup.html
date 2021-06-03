@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/signup-style1.css" type="text/css" rel="stylesheet" />
+    <title>sign up</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>My Website</h1>
+      <p>A <b>responsive</b> website created by me.</p>
+    </div>
+
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="http://127.0.0.1:5500/pages/news.html">news</a>
+      <a href="#">our cars</a>
+      <a href="#">services</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Dropdown</button>
+        <div class="dropdown-content" id="myDropdown">
+          <a class = "hrefnav" href="#">simualtion</a>
+          <a class = "hrefnav" href="http://127.0.0.1:5500/pages/comparison.html">comparison</a>
+          <a class = "hrefnav" href="http://127.0.0.1:5500/pages/how%20to%20choose%20your%20car.html">how to choose your car</a>
+        </div>
+      </div> 
+      <div class="login-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Username" name="username">
+          <input type="text" placeholder="Password" name="Password">
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <h1>sign up</h1>
+    <!-- <img class="img" scr height="100%" width="100%"> -->
+    <form action="submit">
+      <div class="singup_form">
+        <div class="label">Your name</div>
+        <input class="inputf" type="text" required />
+        <div class="label">Email</div>
+        <input class="inputf" type="email" required />
+        <div class="label">Password</div>
+        <input class="inputf" type="password" required />
+        <div class="label">Re-enter Password</div>
+        <input class="inputf" type="password" required />
+        <br />
+        <p>By clicking the sign up button,you agree to our condition</p>
+        <div class="divbtn">
+          <button class="formbtn">Sign up</button>
+        </div>
+      </div>
+    </form>
+    
+    <footer>
+      <div class="foot-row">
+        <div class="foot-col1">
+          <h4>Copyright © Your Website 2021</h4>
+        </div>
+        <div class="foot-col2">
+          <a href="https://www.facebook.com/"><img src="/images/facebookpng.png"></a>
+          <a href="https://www.instagram.com/"><img src="/images/Instagram.png"></a>
+          <a href="https://twitter.com/home"><img src="/images/twitter.png"></a>
+        </div>
+        <div class="foot-col3">
+          <a href="#">about us</a>
+          <a href="#">feed back</a>
+        </div>
+      </div>
+      </footer>
+  
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
