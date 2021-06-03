@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(lol2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.left-side {
+  flex: 40%;
+  padding: 20px;
+  background-color: rgb(110, 155, 163);
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  margin: 10px 50px 10px 50px;
+}
+
+.main-item {
+  background-color: rgb(35, 110, 107);
+  background-attachment: fixed;
+  display: inline-block;
+}
+
+a {
+  border: rgb(127, 202, 202);
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #08343aca;
+  color: white;
+  margin-left: 5px;
+}
+
+.right-side {
+  flex: 40%;
+  padding: 20px;
+  background-color: rgb(110, 155, 163);
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  margin: 10px 50px 10px 50px;
+}
+
+.lol {
+  border-radius: 30px;
+  border-style: double;
+  border-color: rgb(67, 20, 82);
+  background-color: #693488;
+  position: relative;
+  left: 600px;
+}
+
+.p {
+  background-color: rgb(93, 131, 248);
+  background-attachment: fixed;
+  display: inline-block;
+}

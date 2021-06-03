@@ -1,0 +1,78 @@
+body
+{
+  /* background: white; */
+  background-image: url("background.jpeg");
+  
+  background-size: cover;
+}
+.comparison-form{
+  width: 400px;/*edit*/
+  margin-top: 265px;
+  margin-bottom: 100px;
+  margin-right: 900px;
+  margin-left: 150px;
+  border-radius: 15px;
+  background:rgb(12 11 11/70%);
+  padding: 10px;
+}
+.h1{
+  font-family: "Lobster", Sans-serif;
+  color:white;
+  background:rgb(45 45 95/55%);
+  text-align: center;
+  font-size: 70%;
+  border-radius: 12px;
+  width: 300px;
+  padding: 5px;
+  position: absolute;
+  margin-top: -110px;
+}
+/*add*/
+label{
+  padding:10px;
+  color: white;
+}
+input:focus{
+  outline: none;
+}
+/*add*/
+input[type=text],select
+{
+  width: 98%;/*edit*/
+  padding: 7px 14px;/*edit*/
+  margin: 9px 9px;/*edit*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.comparison
+{
+  width: 400px;/*edit*/
+  position: absolute;
+  top: 36%;
+  left: 60%;
+  margin-left: 10px;
+  right: 8%;
+  border-radius: 15px;
+  background:  rgb(12 11 11/70%);
+  padding: 10px;
+}
+.submit{
+  position: absolute;
+  top: 85%;
+  left: 47%;
+}
+input[type=submit]{
+width: 100%;
+background: black;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type=submit]:hover
+{
+  background: rgba(56, 39, 94, 0.925);
+}

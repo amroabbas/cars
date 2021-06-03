@@ -1,0 +1,111 @@
+.h1{
+    font-family: 'Playfair Display', serif;    
+    color:white;
+    background:rgba(64, 47, 104, 0.925);
+    text-align: center;
+    font-size: 100%;
+    border-radius: 15px;
+    margin-left: 50px;
+    width: 900px;
+    
+
+    }
+
+
+
+
+h2{
+    color:white;
+    background:rgba(64, 47, 104, 0.925);
+    width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+    font-size: 25px;
+}
+
+h3{
+    color:white;
+    background:rgba(64, 47, 104, 0.925);
+    width: 400px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+    padding: 3px;
+}
+
+h4{
+    color:white;
+    background:rgba(64, 47, 104, 0.925);
+    width: 400px;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+    padding: 3px;
+}
+ 
+
+p{
+    font-family:initial;
+    font-size: 100%;
+   
+}
+
+body
+{
+    background-color:rgb(219, 214, 226);
+        height: 4000px;
+    
+
+}
+
+.continar
+{
+    width:1170px;
+    margin: auto;
+}
+
+.clearfix
+{
+    clear:both;
+}
+
+/*end main relze */
+
+
+
+
+
+/*start footer*/
+
+.footer
+{
+    background-color:rgba(56, 39, 94, 0.925);
+    color:#d5e2ec;
+    padding:20px;
+    text-align:center;
+}
+.footer .iconcopy img
+{
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+.footer .iconcopy img:hover
+{
+    height:35px;
+    transition: all 0.3s ease;
+}
+/*end footer*/
+
+.pargraph-with-number{
+    width:700px;
+  }
+  
+  .number{
+    font-size:30px;
+    padding:10px;
+    height: 20px;
+    color:#08090a;
+  }
+  

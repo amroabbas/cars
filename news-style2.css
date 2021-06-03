@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #242538;
+  
+}
+
+/* input[type="checkbox"]
+{position: fixed;
+z-index: 1;
+top: 40px;
+right: 100px;
+cursor: pointer;
+
+
+}
+input[type="checkbox"]:checked~*
+{
+
+  filter: invert(1);
+  background-color: black;
+}
+ */
+
+
+
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} 
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+
+.dropdown-content {
+  display:none;
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 108px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.hrefnav{
+  display: block;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+  position:sticky;
+  top:47px;
+  right: 145px;
+  float:right;
+}
+p{
+  color: rgb(202, 202, 202);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content img{
+  width: 49%;
+  height: 328px;
+  padding: 0;
+  
+}
+
+p.car-info{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 2px 16px;
+}
+
+p.car-info::selection{
+  color: white;
+  background-color: rgba(120, 70, 139, 0.582);
+}
+
+
+a{
+color: rgb(143, 0, 143);
+}
+
+.card1 {
+    box-shadow: 0 8px 16px 0 rgb(225 225 225 / 20%);
+    flex: 70%;
+    background-color: #3e4064;
+    padding: 20px;
+    height: auto;
+    margin: 10px 50px 10px 50px;
+    width: 91%;
+    
+}
+.card2 {
+    box-shadow: 0 8px 16px 0 rgb(225 225 225 / 20%);
+    flex: 70%;
+    background-color: #3e4064;
+    padding: 20px;
+    height: auto;
+    margin: 10px 50px 10px 50px;
+    width: 91%; 
+}
+
+.card3 {
+    box-shadow: 0 8px 16px 0 rgb(225 225 225 / 20%);
+    flex: 70%;
+    background-color: #3e4064;
+  padding: 20px;
+  height: auto;
+  margin: 10px 50px 10px 50px;
+  width: 91%; 
+}
+
+.card4 {
+    box-shadow: 0 8px 16px 0 rgb(225 225 225 / 20%);
+    flex: 70%;
+    background-color: #3e4064;
+  padding: 20px;
+  height: auto;
+  margin: 10px 50px 10px 50px;
+  width: 91%; 
+}
+
+.card5 {
+    box-shadow: 0 8px 16px 0 rgb(225 225 225 / 20%);
+    flex: 70%;
+    background-color: #3e4064;
+  height: auto;
+  margin: 10px 50px 10px 50px;
+  width: 91%; 
+}
+
+.card6 {
+    box-shadow: 0 8px 16px 0 rgb(225 225 225 / 20%);
+    flex: 70%;
+    background-color: #3e4064;
+  padding: 20px;
+  height: auto;
+  margin: 10px 50px 10px 50px;
+  width: 91%; 
+}
+div.content a:hover{
+  color: red;
+}
+/* div.content a:visited{
+  color: hotpink;
+} */
+div.content a:active{
+  color: green;
+}
+
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* #slid{
+  overflow: hidden;
+}
+#slid figure{
+  width: 500%;
+  position: relative;
+  animation: 5s slider infinite;
+  margin: 0;
+  left: 0;
+}
+#slid figure img{
+  width: 20%;
+  float: left;
+} */
+.name{
+  background-color: #1abc9c;
+  position: fixed;
+  width: 231px;
+  border: 2px rgb(165, 165, 165) solid;
+  top: 853px;
+  left: 1400px;
+ 
+ 
+} 
+div .name p{
+  color:rgb(228, 228, 228);
+}
+

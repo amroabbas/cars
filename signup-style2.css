@@ -1,0 +1,73 @@
+body{
+    background-image:  url("../pic/eeeeeeeeeeeeeeeeeeeeeeee.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  :root {
+    text-align: center;
+    background-image: url()
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  P{
+    color: #927071;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 50px;
+    color:#927071;
+  }
+  .img {
+    height:100%;
+    width:100%;
+  }
+  .singup_form {
+    background: whitesmoke;
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 3%;
+  }
+  
+  .label {
+    margin: 3px;
+  }
+  
+  .inputf {
+    margin: 7px;
+    width: 80%;
+    border-radius: 3%;
+    font-size: 20px;
+    padding: 3px;
+    border-style: none none solid none;
+    border-color: #927071;
+    border-width: 3px;
+  }
+  
+  .inputf:focus {
+    outline: none;
+    border-color: #927071;
+    border-width: 3px;
+    transition: 0.1s;
+  }
+  
+  .formbtn {
+    margin: 10px;
+    width: 80%;
+    border-radius: 50px;
+    font-size: 20px;
+    background: whitesmoke;
+  }
+  
+  .formbtn:hover {
+    background: rgba(223, 127, 127, 0.479);
+  }
+  
+  .divbtn {
+    text-align: center;
+  }
+  

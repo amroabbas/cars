@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background: linear-gradient(35deg,#242538,#4f527e);
+    display: flex;  
+    min-height: 100vh;  
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
+}
+.container{
+    text-align: center;
+     justify-content: center;  
+      height: 662px;
+      width: 700px; 
+    
+     margin-top: 10px;
+     background:linear-gradient(180deg,#4f527e,#242538);
+     box-shadow: 0 0 100px 50px #ebcfc428;
+     border-radius: 10px;
+      overflow: hidden; 
+      position: relative;
+    left: -94px;
+}
+.form{
+
+    margin: 38px;
+}
+.user input{  
+    width: 368px;
+    height: 34px;
+    margin: 6px;
+    border: 0.5px solid black;
+    font-size: 17px;
+   
+}
+.user-name input{
+
+    width: 368px;
+    height: 34px;
+    margin: 6px;
+    border: 0.5px solid black;
+    font-size:17px;
+
+}
+.user input::placeholder,.user-name input::placeholder ,textarea::placeholder{
+    color: rgb(133, 133, 133);
+    
+}
+textarea{
+width: 369px;
+height: 200px;
+resize: none;
+text-align: center; 
+font-size: 20px;
+padding: 10px;
+
+}
+.submit{
+
+    margin: 10px;
+}
+.submit input{
+    font-size: 20px;
+    border-radius: 50px;
+    width: 181px;
+    height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: black 2px solid;
+    margin: 155px;
+}
+.submit input:active{
+    background:#515275;
+    border-color: cornsilk;
+}
+.rate{
+    display: flex;
+    position:absolute ;
+    margin-left: 223px;
+   
+
+}
+.rate input{
+    display: none;
+}
+.rate label img{
+    width: 50px;
+     margin: 40px; 
+    margin-left: 5px;
+}
+ .rate label{
+    cursor: pointer;
+    height: 120px;
+    text-align: center;
+  
+} 
+
+
+.rate input:hover label ,
+.rate input:checked label{
+     opacity: 1; 
+    width: 100px;
+}
+.rate label p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-top: 0px;   
+    transform: translateY(-50px) scale(0);     
+    padding-top: 0px;
+    transition: 0.7s;  
+    margin: -18px;
+   
+
+}
+
+.rate input:hover+ label p,
+.rate input:checked+ label p{
+    transform: translateY(0) scale(1);
+   
+}
+
+.name{
+
+    background-color: transparent;
+    width: 231px;
+    position: relative;
+    left: -362px;
+    top: 422px;
+    border: 1px white solid;
+}
+
+div.name p{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
